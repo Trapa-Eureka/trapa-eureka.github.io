@@ -1,6 +1,6 @@
 title: Trapa
 author: Trapa
-email: your-email@domain.com
+email: 1982gaya@gmail.com
 remote_theme: thelehhman/plainwhite-jekyll
 description: > # this means to ignore newlines until "show_exerpts:"
   test
@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: JINHO SON
-  tagline: Python, Django, ES6, Tailwind CSS, etc
+  tagline: Python, Django, ES6, Tailwind CSS, etc (i love VSCode)
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: games
