@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Github Blog - jekyll Plainwhite 테마 설치"
-date:   2019-03-23 21:03:36 +0530
+date:   2020-05-04 23:06:30 +0530
 categories: Jekylle Theme GithubBlog
 ---
 
