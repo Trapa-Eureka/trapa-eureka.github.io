@@ -1,5 +1,5 @@
-title: Your awesome title
-author: GitHub User
+title: Trapa
+author: Trapa
 email: your-email@domain.com
 remote_theme: thelehhman/plainwhite-jekyll
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: JINHO SON
-  tagline: Full-stack Developer(web/app). Designer
+  tagline: Python, Django, ES6, Tailwind CSS, etc
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   disqus_shortname: games
@@ -20,11 +20,11 @@ plainwhite:
   sitemap: true
   # generate social links in footer
 
-  navigation:
-    - title: test1
-      url: "/test1"
-    - title: test2
-      url: "/test2"
+  # navigation:
+  #   - title: test1
+  #     url: "/test1"
+  #   - title: test2
+  #     url: "/test2"
 
   social_links:
     twitter: 
