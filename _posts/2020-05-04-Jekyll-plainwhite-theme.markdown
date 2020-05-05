@@ -34,3 +34,18 @@ $ git clone (생성한 해당 저장소 링크)
    [글 작성에 필요한 markdown 사용법][markdown-use]
 
 [markdown-use]: https://gist.github.com/ihoneymon/652be052a0727ad59601
+
+* 기타
+- 로컬 폴더에서 파일을 싹 지우고 Github에서 pull, clone시 jekyll serve가 안되는 경우
+1. 터미널에서 해당 폴더 위치까지 접근 후 아래와 같이 한다.(순서대로)
+   ```
+   $ bundle
+   ```
+   *****
+   ```
+   $ gem install plainwhite
+   ```
+   *****
+   ```
+   $ jekyll serve
+   ```
