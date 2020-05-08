@@ -37,7 +37,7 @@ PDCA는 - Plan, Do, Check, Act - 목표를 세우고, 모든 방법을 통해 �
 정도로 이해하고 실생활에도 적용하면 좋을거 같다.
 (하지만 세상사 마음먹은 대로 되지는 않는다. ㅎㅎ)
 
-![pdca](img/pdca.jpg)
+![pdca](http://www.casenews.co.kr/news/photo/201902/2165_8088_1334.jpg)
 
 연관 추천 도서 : [딥 워크]({{ page.link }}38286918)
 <br><br>
