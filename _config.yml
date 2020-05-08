@@ -1,58 +1,28 @@
-title: Trapa
-author: Trapa
-email: 1982gaya@gmail.com
-remote_theme: thelehhman/plainwhite-jekyll
-description: > # this means to ignore newlines until "show_exerpts:"
-  test
-show_excerpts: true # set to true to show excerpts on the homepage
+# Permalinks
+permalink:      /:year-:month-:day/:title
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# Setup
+title:          JINHO SON
+baseurl:        ""
+url:            "http://trapa-eureka.github.io"
+
+# Assets
 sass:
-  sass_dir: _sass
-plainwhite:
-  name: JINHO SON
-  tagline: Python, Django, ES6, Tailwind CSS, etc (i love VSCode)
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  disqus_shortname: games
-  analytics_id: "UA-165438498-1"
-  sitemap: true
-  # generate social links in footer
-
-  # navigation:
-  #   - title: test1
-  #     url: "/test1"
-  #   - title: test2
-  #     url: "/test2"
-
-  social_links:
-    twitter: 
-    github:  Trapa-Eureka
-    linkedIn: in/jinho-son-10a08167
-    rss: rss
-    # dribbble: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # pinterest: jekyll
-    # youtube: jekyll
-    # facebook: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+  sass_dir:     _sass
+  style:        :compressed
 
 # Build settings
-theme: plainwhite
+markdown:       kramdown
 
-plugins:
-  - jekyll-seo-tag
-#  - jekyll-feed
+# About
+author:
+  name:         JINHO SON
+  url:          http://trapa-eureka.github.io
+  email:        1982gaya@gmail.com  
+  github:       Trapa-Eureka
+  twitter:      
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/Trapa-Eureka/trapa-eureka.github.io

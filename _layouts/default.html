@@ -1,109 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {%- include head.html -%}
-  </head>
+
+  {% include head.html %}
+
   <body>
-    <main class="container">
-      <section class="about">
-        <a href="/"><img src="{{ "/assets/pic.jpeg" | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
-        <h2 id="title">
-          <a href="/">{{ site.plainwhite.name }}</a>
-        </h2>
-        <p class="tagline">{{ site.plainwhite.tagline }}</p>
-        <ul class="social">
-          {%- if site.plainwhite.social_links.github -%}
-            <a href="https://github.com/{{ site.plainwhite.social_links.github }}">
-              <li>
-                <i class="icon-github-circled"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.linkedIn -%}
-            <a href="https://www.linkedin.com/{{ site.plainwhite.social_links.linkedIn }}">
-              <li>
-                <i class="icon-linkedin-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.twitter -%}
-            <a href="https://twitter.com/{{ site.plainwhite.social_links.twitter }}">
-              <li>
-                <i class="icon-twitter-squared"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.instagram -%}
-            <a href="https://instagram.com/{{ site.plainwhite.social_links.instagram }}">
-              <li>
-                <i class="icon-instagram"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.facebook -%}
-            <a href="https://facebook.com/{{ site.plainwhite.social_links.facebook }}">
-              <li>
-                <i class="icon-facebook"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.youtube -%}
-            <a href="https://youtube.com/{{ site.plainwhite.social_links.youtube }}">
-              <li>
-                <i class="icon-youtube"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.pinterest -%}
-            <a href="https://pinterest.com/{{ site.plainwhite.social_links.pinterest }}">
-              <li>
-                <i class="icon-pinterest"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.dribbble -%}
-            <a href="https://dribbble.com/{{ site.plainwhite.social_links.dribbble }}">
-              <li>
-                <i class="icon-dribbble"></i>
-              </li>
-            </a>
-          {%- endif -%}
-          {%- if site.plainwhite.social_links.flickr -%}
-            <a href="https://flickr.com/{{ site.plainwhite.social_links.flickr }}">
-              <li>
-                <i class="icon-flickr"></i>
-              </li>
-            </a>
-          {%- endif -%}
-        </ul>
-        {%- if site.plainwhite.navigation -%}
-          <nav class="navigation">
+      {% assign current = page.url | downcase | split: '/' %}
+      <nav class="nav">
+        <div class="nav-container">
             <ul>
-              {% for link in site.plainwhite.navigation %}
-                <li>
-                  <a href="{{ link.url }}">{{ link.title }}</a>
+                <li class="transition">
+                    <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "blog" or current[1] == "book" or current[1] == "project" %} class="normal" {% endif %} class="active">Home</a>
                 </li>
-              {% endfor %}
+                <li class="transition">
+                    <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Project</a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >Blog</a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/book' | prepend: site.baseurl }}" {% if current[1] == "book" %} class="active"{% endif %} >Book</a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/about' | prepend: site.baseurl }}" {% if current[1] == "about" %} class="active"{% endif %} >About</a>
+                </li>
             </ul>
-          </nav>
-        {%- endif -%}
+        </div>
+      </nav>
+    
+    {% if page.post-header == true %}
+        {% include post-header.html %}
+    {% endif %}
+    {% if page.project-header == true %}
+        {% include project-header.html %}
+    {% endif %}
+      
+    <main>
+      {{ content }}
+        
+        {% if page.text == true %}
+            {% include share.html %}
+        {% endif %}
 
-        <p>&copy;
-          {{ "now" | date: "%Y" }}</p>
-      </section>
-      <section class="content">
-        {{ content }}
-      </section>
-    </main>
-    {%- if site.plainwhite.analytics_id -%}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
-      <script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', '{{ site.plainwhite.analytics_id }}');
-	</script>
-    {%- endif -%}
+      </main>
+      
+      {% include footer.html %}
+   
   </body>
 </html>
