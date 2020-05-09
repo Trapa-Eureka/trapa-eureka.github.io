@@ -10,7 +10,7 @@ header-img: "https://images.unsplash.com/photo-1545724407-0169b368c58f?ixlib=rb-
 ---
 
 유유자적하게 전세계를 돌아다니는 Digital Nomad의 삶을 지향하지만 아이 세명 있는 철없는 가장이라 기회만 엿보는 중. 대학교 졸업 후 한국에서 1년 가량 일한 뒤 2014년 4월 이전까지
-해외에서 꽤 긴 기간동안 지냈다.
+해외에서 꽤 긴 기간동안 지냈다.(그 중에서도 필리핀에서 제일 오래 지냈다.)
 <br />
 웹/앱 풀스택이 목표이나 갈길이 멀고 (인공지능 분석에도 관심이 많다.) 취미를 일로 만들기 위해 드론과 DSLR카메라로 사진/영상 촬영 및 편집도 가끔한다.
 더욱이 국제결혼을 한 덕에 곁다리로 영어/한국어 번역을 정말. 가끔. 한다.
@@ -39,5 +39,10 @@ header-img: "https://images.unsplash.com/photo-1545724407-0169b368c58f?ixlib=rb-
 - [DOT(관광부)](www.tourism.gov.ph/)
 - [BSP(필리핀 중앙은행)](www.bsp.gov.ph/)
 
+<br />
+
+### 좋아하는 필리핀 음악
+
+- [Wish 107.5 Theme Song](https://youtu.be/t74MhXhAnFM) / [Daryl Ong - ikaw na nga](https://youtu.be/SBm-N2kXBJg) / [Kris Lawrence - Ikaw Pala](https://youtu.be/amSRNwMp2nc) / [Morisette - akin ka na lang](https://youtu.be/p2FXQgtmPDw) / [Kakal Bautista - isang tanong, isang sagot](https://youtu.be/2MuS1GYM3-0) / [MYMP - Kailan](https://youtu.be/btw7ZJzYXf8)
 
 <br />
