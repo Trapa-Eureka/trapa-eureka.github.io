@@ -36,7 +36,7 @@ The multicultural families can't all have the same thoughts. But in general, Man
 However, around the end of December 2020, news of the British strain virus was reported.
 And then this news...
 
-[Philippines suspends all flights from UK from Dec. 24 to 31](https://cnnphilippines.com/news/2020/12/23/Philippines-UK-temporary-travel-ban-.html)
+[Philippines suspends all flights from UK from Dec. 24 to 31](https://cnnphilippines.com/news/2020/12/23/Philippines-UK-temporary-travel-ban-.html){: target="_blank"}
 
 Local news reports in the Philippines say the Philippines may be able to do rockdown again. 
 (oh shit...)
