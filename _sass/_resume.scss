@@ -93,6 +93,30 @@ div.resume-info {
     }
 }
 
+.resume-slogan {
+    margin: 36px 0 28px 0;
+
+    .resume-slogan-main {
+        font-family: $san-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: $default-shade;
+        line-height: 1.4;
+
+        @media (max-width: $break-small) {
+            font-size: 20px;
+        }
+    }
+
+    .resume-slogan-sub {
+        margin-top: 8px;
+        font-family: $source;
+        font-size: 17px;
+        font-weight: 400;
+        color: $purple;
+    }
+}
+
 section.skill {
     svg {
         width: 24px;
