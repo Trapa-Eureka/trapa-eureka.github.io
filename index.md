@@ -3,7 +3,7 @@ layout: default
 title: "JINHO SON"
 main: true
 subtitle: I'm JINHO SON, aim to be a Digital Nomad
-description: JINHO SON, who is a wanna be Full-Stack Developer based in Seoul, South Korea. | 아이 셋 있는 디지털 노마드를 지향하는 철없는 가장입니다.
+description: JINHO SON, who is a wanna be Full-Stack Developer based in Seoul, South Korea. | A carefree family man with three kids, aspiring to be a digital nomad.
 ---
 <div class="intro-animation">
 <section class="explanation">
@@ -19,7 +19,7 @@ description: JINHO SON, who is a wanna be Full-Stack Developer based in Seoul, S
             <div class="underline"></div>
         </div> -->
     </h1>
-    <h2 class="intro">아이 셋 있는 디지털 노마드를 지향하는 철없는 가장입니다.</h2>
+    <h2 class="intro">A carefree family man with three kids, aspiring to be a digital nomad.</h2>
 </section>
 </div>
 {% include resume.html %}

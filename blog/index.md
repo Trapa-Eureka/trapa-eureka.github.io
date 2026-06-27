@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog"
-description: 기술 관련 글과 여행 및 일상을 기록합니다.
+description: A record of writing on technology, travel, and everyday life.
 main: true
 project-header: true
 header-img: img/about.jpg

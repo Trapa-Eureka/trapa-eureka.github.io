@@ -1,8 +1,8 @@
 ---
 layout: post
 author: "JINHO SON"
-title:  "초고속 성장의 조건, PDCA"
-subtitle: "시행착오를 줄이고 (본인에게 맞는) 속도로 생산성을 높여보기"
+title:  "The Conditions for Hypergrowth: PDCA"
+subtitle: "Reducing trial and error and boosting productivity at a pace that suits you"
 type: "Book Picked"
 text: true
 book: true
@@ -13,31 +13,31 @@ data-name: b-recent-feb
 link: "http://www.yes24.com/Product/Goods/"
 ---
 
-'실패를 경험해봐야 성공의 단맛을 안다'
+'You have to experience failure to know the sweet taste of success.'
 
-라고는 하지만 사람이 살면서 나에게 직접적으로 닥쳐올 실패의 가능성이나 위험을 겪고싶어 하지는 않는다. 그래서 누구나 좋은 결과가 나오기를 원한다. 준비를 한 사람이든 안한 사람이든 간에.
-목적을 가지고 준비를 꾸준히 하면 기회가 왔을때 좋은 결과로 이어질 것이며 반대의 경우는 기회가 와도 좋은 결과로 이어지지 않는다.
+That may be true, but no one wants to face the possibility or danger of failure that directly affects them in life. So everyone wants good results, whether they've prepared or not.
+If you keep preparing with a purpose, it will lead to good results when the opportunity comes; in the opposite case, good results won't follow even when the opportunity arrives.
 
-해당 책에서는 좋은 결과가 도대체 왜? 나오지 않을까? 하는 이유에 대해 간략하게 언급되고 있다.
+This book briefly touches on the reasons why good results, after all, fail to come.
 
 <br />
 
-1. 계획에 완벽함을 추구하기 때문
-2. 일구입혼 주의 때문
-3. 기한을 느슨하게 설정하기 때문
-4. 수치로 설정되지 않은 모호한 목표 때문
-5. 어중간한 검증
-6. 자기 힘으로 해야 한다는 생각 때문
+1. Because you pursue perfection in your plans
+2. Because of an all-or-nothing mindset
+3. Because you set loose deadlines
+4. Because of vague goals that aren't expressed as numbers
+5. Half-hearted verification
+6. Because of the belief that you have to do it all on your own
 
 <br/>   
 
-위의 내용이 안좋다라는건 아닌데 '너무 한쪽으로만 치우져 전체를 못보는데서 오는 우를 범하는 상황' 쯤으로 이해가 되기도 한다.
+It's not that the items above are bad, but they can also be understood as something like 'the kind of mistake that comes from leaning too far to one side and failing to see the whole picture.'
 
-PDCA는 - Plan, Do, Check, Act - 목표를 세우고, 모든 방법을 통해 시험해 보며, 목표와 결과의 차이를 검증하며, 검증 결과를 바탕으로 개선점을 도출/가장 베스트 방법이 뭔지/도출된 베스트방법을 더욱 발전시킴
-정도로 이해하고 실생활에도 적용하면 좋을거 같다.
-(하지만 세상사 마음먹은 대로 되지는 않는다. ㅎㅎ)
+PDCA - Plan, Do, Check, Act - means setting a goal, testing it through every possible method, verifying the gap between the goal and the result, and based on the verification results, deriving improvements / figuring out what the best method is / further developing the best method you've derived.
+It seems like a good idea to understand it at that level and apply it in everyday life too.
+(But things in the world don't always go the way you intend. haha)
 
 ![pdca](http://www.casenews.co.kr/news/photo/201902/2165_8088_1334.jpg)
 
-연관 추천 도서 : [딥 워크]({{ page.link }}38286918)
+Related recommended reading: [Deep Work]({{ page.link }}38286918)
 <br><br>

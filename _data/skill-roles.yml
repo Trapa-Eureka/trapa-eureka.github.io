@@ -1,15 +1,40 @@
-- name: HTML
-- name: CSS, Tailwind CSS
-- name: Javascript, Typescript
+- name: Next.js (App Router)
+- name: React
+- name: React Native
+- name: Expo
+- name: TypeScript
+- name: JavaScript
+- name: Tailwind CSS
+- name: NativeWind
+- name: shadcn/ui, Radix UI
+- name: GSAP, Reanimated
+- name: Zustand
+- name: TanStack Query
+- name: react-hook-form, zod
+- name: PWA
+- name: Supabase
+- name: PostgreSQL
+- name: Row Level Security (RLS)
+- name: OAuth (Google · Apple · OTP)
+- name: Realtime · Storage
+- name: Claude API (AI integration)
+- name: Voyage AI embeddings
+- name: Typesense (full-text search)
+- name: pgvector (semantic search)
+- name: RRF hybrid search
+- name: MapLibre GL
+- name: React Native Maps
+- name: PostGIS
+- name: GeoNames, Overpass
 - name: Python
-- name: Django
-- name: UI Interaction
-- name: Gulp
-- name: Heroku, AWS S3
-- name: NodeJS
-- name: GraphQL Yoga
-- name: Postgresql
-- name: Drone photo/video shooting & Edit
-- name: DSLR photo/video shooting & Edit
-- name: Copywriting, Writing
-- name: KO/EN Translation
+- name: pdfplumber, tesseract OCR
+- name: PDF generation (jsPDF, react-pdf)
+- name: Excel (xlsx), CSV
+- name: Brevo (email)
+- name: web-push notifications
+- name: Vercel
+- name: Railway
+- name: Inngest (scheduler)
+- name: Upstash (Redis)
+- name: Sentry
+- name: PostHog

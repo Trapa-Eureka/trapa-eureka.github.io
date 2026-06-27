@@ -2,16 +2,16 @@
 layout: post
 author: "JINHO SON"
 title:  "Salita PH"
-subtitle: "필리핀어(타갈로그)를 매일 조금씩, 재미있게"
+subtitle: "Filipino (Tagalog), a little bit every day, in a fun way"
 type: "Side Project"
 projects: true
 text: true
 portfolio: true
 post-header: true
 header-img: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80"
-role-title: "기획 · 디자인 · 개발 (1인)"
-role-specific: "모바일 앱 · 언어 학습"
-team: "1인 개발"
+role-title: "Planning · Design · Development (solo)"
+role-specific: "Mobile App · Language Learning"
+team: "Solo development"
 platforms: "iOS"
 date: "2026 - Present"
 order: 9
@@ -19,39 +19,39 @@ order: 9
 
 # Overview
 
-## 필리핀어를, 매일 조금씩
+## Filipino, a little bit every day
 
-필리핀에서 지내다 보면 영어만으로도 웬만큼 통하지만, 현지 사람들과 한 걸음 더 가까워지는 건 결국 그들의 언어 — 타갈로그(필리핀어)다. 그런데 막상 배우려고 하면 한국어를 쓰는 사람이 꾸준히 따라갈 만한 앱을 찾기가 어려웠다.
+When you live in the Philippines, you can get by reasonably well with just English, but what really brings you one step closer to the locals is, in the end, their language — Tagalog (Filipino). Yet when you actually set out to learn it, it was hard to find an app that a Korean speaker could keep following consistently.
 
-**Salita PH**는 그래서 만든 필리핀어 학습 앱이다. ("Salita"는 타갈로그로 "말 · 단어"라는 뜻.) 매일 조금씩 듣고, 말하고, 써 보며 자연스럽게 익히도록 돕는 게 목표다.
+That's why I built **Salita PH**, a Filipino learning app. ("Salita" means "speech · word" in Tagalog.) The goal is to help you learn naturally by listening, speaking, and writing a little bit every day.
 
-# 무엇을 할 수 있나
+# What you can do
 
-- **단계별 레슨** — 유닛으로 나뉜 레슨을 따라가며 표현과 문장을 차근차근 익힌다.
-- **대화 롤플레이** — 주문하기 · 길 묻기처럼 실제 상황을 가정한 대화로 연습한다.
-- **발음 연습** — 직접 말해 보고 점수와 피드백을 받아, 어느 부분을 더 다듬을지 알 수 있다.
-- **표현 복습** — 배운 표현을 잊을 때쯤 다시 꺼내 복습하도록 챙겨준다.
-- **쓰기 연습** — 듣고 받아쓰거나 직접 작문하며 손에 익힌다.
-- **스킬 그래프** — 무엇을 익혔고 무엇이 남았는지 한눈에 보여준다.
+- **Step-by-step lessons** — Follow lessons divided into units and learn expressions and sentences one step at a time.
+- **Conversation role-play** — Practice with conversations set in real-life situations, like ordering food or asking for directions.
+- **Pronunciation practice** — Speak it yourself and get a score and feedback, so you know which parts to polish further.
+- **Expression review** — It brings back the expressions you've learned to review right around when you're about to forget them.
+- **Writing practice** — Make it second nature by listening and taking dictation, or composing on your own.
+- **Skill graph** — Shows at a glance what you've learned and what's left.
 
-# 만들면서 가장 신경 쓴 것
+# What I cared about most while building it
 
-- **꾸준함이 핵심** — 언어는 '매일 조금씩'이 거의 전부라, 일일 목표 · 연속 학습 · 주간 리더보드처럼 다시 열고 싶게 만드는 장치에 공을 들였다.
-- **눈으로만 끝내지 않게** — 읽기만 하면 입이 안 떨어진다. 듣기 · 발음 · 대화까지 한 앱 안에서 자연스럽게 이어지도록 했다.
-- **부담 없이** — 하루 몇 분이면 되도록, 화면과 흐름을 가볍고 단순하게 유지했다.
+- **Consistency is key** — With languages, "a little bit every day" is almost everything, so I put effort into things that make you want to open the app again, like daily goals, learning streaks, and weekly leaderboards.
+- **Not just with your eyes** — If you only read, the words won't come out of your mouth. I made listening, pronunciation, and conversation flow naturally together within a single app.
+- **Light and easy** — I kept the screens and the flow light and simple so that a few minutes a day is enough.
 
 # Stack
 
 - **App**: React Native · Expo (Expo Router), TypeScript
-- **스타일**: NativeWind (Tailwind), Reanimated(애니메이션)
-- **상태 · 데이터**: Zustand, TanStack Query
-- **Backend**: Supabase (인증 · 데이터)
-- **오디오 · 음성**: expo-av, expo-speech (듣기 · 발음)
-- **그 외**: 푸시 알림(학습 리마인더), 분석(PostHog), 에러 추적(Sentry)
-- **주요 화면**: 레슨, 대화 롤플레이, 발음 연습, 표현 복습, 쓰기, 스킬 그래프
+- **Styling**: NativeWind (Tailwind), Reanimated (animations)
+- **State · Data**: Zustand, TanStack Query
+- **Backend**: Supabase (authentication · data)
+- **Audio · Voice**: expo-av, expo-speech (listening · pronunciation)
+- **Others**: push notifications (learning reminders), analytics (PostHog), error tracking (Sentry)
+- **Main screens**: lessons, conversation role-play, pronunciation practice, expression review, writing, skill graph
 
-# 지금, 그리고 다음
+# Now, and what's next
 
-매일 열고 싶은, 부담 없는 필리핀어 학습 경험을 목표로 다듬어 가는 중이다.
+I'm in the process of refining it toward a low-pressure Filipino learning experience you'll want to open every day.
 
-App Store에서 만나볼 수 있어요: **[Salita — Learn Tagalog](https://apps.apple.com/ph/app/salita-learn-tagalog/id6763545384){:target="_blank" rel="noopener"}**
+You can find it on the App Store: **[Salita — Learn Tagalog](https://apps.apple.com/ph/app/salita-learn-tagalog/id6763545384){:target="_blank" rel="noopener"}**

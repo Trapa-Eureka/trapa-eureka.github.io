@@ -2,66 +2,66 @@
 layout: post
 author: "JINHO SON"
 title:  "Bayni"
-subtitle: "우리 동네 이웃과, 안전하게 중고 거래"
+subtitle: "Safe secondhand trading with the neighbors right around you"
 type: "Side Project"
 projects: true
 text: true
 portfolio: true
 post-header: true
 header-img: "https://images.unsplash.com/photo-1513125370-3460ebe3401b?auto=format&fit=crop&w=1600&q=80"
-role-title: "기획 · 디자인 · 개발 · 출시 (1인)"
-role-specific: "모바일 앱 · 백엔드 · AI 기능"
-team: "1인 개발"
-platforms: "iOS (Android 예정)"
+role-title: "Planning · Design · Development · Launch (solo)"
+role-specific: "Mobile app · Backend · AI features"
+team: "Solo development"
+platforms: "iOS (Android coming soon)"
 date: "May 2026 - Present"
 order: 3
 ---
 
 # Overview
 
-## 우리 동네 사람들과, 안전하게
+## Safely, with the people in your own neighborhood
 
-필리핀에는 "팔렝케(palengke)"라고 부르는 동네 장터 문화가 있다. **Bayni**는 그 이름처럼, 멀리 있는 전국 장터가 아니라 **내 주변 이웃과 중고 물건을 사고파는** 동네 중고거래 앱이다. 이름 Bayni는 "Bayan(공동체) + Niyo(당신의)" — *당신의 동네, 당신의 장터* 라는 뜻을 담았다.
+In the Philippines, there's a local market culture called the "palengke." True to that name, **Bayni** isn't a nationwide marketplace far from where you live — it's a neighborhood secondhand app for **buying and selling used goods with the neighbors around you**. The name Bayni comes from "Bayan (community) + Niyo (your)" — *your neighborhood, your market*.
 
-중고거래에서 사람들이 결국 가장 신경 쓰는 건 "안전"과 "신뢰"다. 그래서 Bayni는 처음부터 *가까운 이웃끼리, 믿을 수 있게* 거래하는 경험을 목표로 잡았다.
+What people care about most in secondhand trading, in the end, is "safety" and "trust." So from the very beginning, Bayni set out to create an experience where you can trade *with nearby neighbors, in a way you can rely on*.
 
-# 무엇을 할 수 있나
+# What you can do
 
-- **내 주변 매물 피드** — 위치를 기준으로 가까운 동네의 매물을 먼저 보여준다. 전국 매물 속을 헤매는 대신, 지금 만날 수 있는 가까운 거리의 물건들에 집중할 수 있도록.
-- **AI 안전 점검** — 거래 전에 매물을 한 번 더 살펴볼 수 있도록 도와, 사용자가 안심하고 거래하게 한다.
-- **실시간 채팅** — 판매자와 바로 대화하고, 만날 장소와 시간을 정하고, 직접 보고 거래한다.
-- **가격 참고 도우미** — 얼마에 내놓을지 막막할 때, 참고할 수 있는 가격대를 제안해 준다.
-- **맞춤 피드 · 동네 게시판** — 관심사에 맞는 매물을 보여주고, 동네 소식을 나누는 커뮤니티 공간도 함께 두었다.
+- **Listings near you** — Shows listings from nearby neighborhoods first, based on your location. Instead of wandering through nationwide listings, you can focus on items close enough that you can meet up right now.
+- **AI safety check** — Helps you take another look at a listing before a deal, so you can trade with peace of mind.
+- **Real-time chat** — Talk to the seller directly, decide where and when to meet, and see the item in person before trading.
+- **Price reference helper** — When you're not sure how much to list something for, it suggests a price range you can use as a reference.
+- **Personalized feed · neighborhood board** — Shows listings that match your interests, alongside a community space for sharing local news.
 
-# 안전과 신뢰를 먼저
+# Safety and trust first
 
-Bayni가 가장 공들인 부분이다.
+This is the part Bayni put the most care into.
 
-- **직접 만나서, 확인하고 거래** — 공공장소에서 만나 물건을 직접 보고 거래하도록 안내한다.
-- **신뢰 점수(Suki Score)** — 거래 후기와 평점이 쌓여 판매자의 신뢰도를 보여준다. ("Suki"는 단골이라는 뜻)
-- **신고 기능** — 이상하다 싶으면 바로 신고할 수 있다.
-- **프라이버시 우선** — 정확한 GPS 위치는 공유하지 않는다. 다른 사용자에게는 동네(바랑가이)와 도시 이름까지만 보인다.
+- **Meet in person, check, then trade** — Guides you to meet in a public place, see the item in person, and then make the deal.
+- **Trust score (Suki Score)** — Reviews and ratings build up after deals to show a seller's trustworthiness. ("Suki" means a regular customer.)
+- **Reporting** — If something feels off, you can report it right away.
+- **Privacy first** — Your exact GPS location is never shared. Other users only see your neighborhood (barangay) and city name.
 
-# 만들면서 가장 고민한 것
+# What I thought about most while building it
 
-기능을 많이 넣는 것보다, **"낯선 사람과의 거래가 어떻게 하면 덜 불안할까"**를 계속 붙들고 만들었다.
+Rather than packing in lots of features, I kept holding on to one question: **"How can trading with a stranger feel less anxious?"**
 
-- 전국이 아니라 **'우리 동네'로 범위를 좁히는 것** 자체가 신뢰의 출발점이라고 봤다.
-- 안전장치는 사용자가 **거래 전에, 한눈에** 알 수 있어야 의미가 있다고 생각했다.
-- 위치 기반 서비스인 만큼 **프라이버시를 기본값**으로 두는 걸 원칙으로 삼았다.
+- I saw that **narrowing the scope to 'my own neighborhood'** rather than the whole country is itself the starting point for trust.
+- I felt safety measures only matter if users can see them **at a glance, before a deal**.
+- Since this is a location-based service, I made it a principle to keep **privacy as the default**.
 
 # Stack
 
 - **App**: React Native · Expo (Expo Router), TypeScript
-- **상태 · 데이터**: TanStack Query, Zustand
-- **지도 · 위치**: React Native Maps, 반경 기반 위치 검색(PostGIS)
-- **Backend**: Supabase — 인증(Google · Apple · OTP), Postgres, Storage, 실시간(Realtime)
-- **AI**: 매물 검수 · 가격 추천 · 추천 피드 등 (서버에서 처리)
-- **그 외**: 푸시 알림, 지오코딩
-- **플랫폼**: iOS (Android 예정)
+- **State · data**: TanStack Query, Zustand
+- **Maps · location**: React Native Maps, radius-based location search (PostGIS)
+- **Backend**: Supabase — authentication (Google · Apple · OTP), Postgres, Storage, Realtime
+- **AI**: listing review · price recommendation · recommended feed, and more (handled on the server)
+- **Other**: push notifications, geocoding
+- **Platform**: iOS (Android coming soon)
 
-# 지금, 그리고 다음
+# Now, and next
 
-iOS로 먼저 선보였고, Android 버전을 준비 중이다. 앞으로도 **더 안전하고, 더 동네스러운** 거래 경험을 다듬어 갈 계획이다.
+I launched on iOS first, and an Android version is in the works. Going forward, I plan to keep refining a trading experience that's **safer and more neighborly**.
 
-자세한 내용은 공식 웹사이트 **[bayni.app](https://bayni.app){:target="_blank" rel="noopener"}** 에서 볼 수 있다.
+You can find more on the official website at **[bayni.app](https://bayni.app){:target="_blank" rel="noopener"}**.
