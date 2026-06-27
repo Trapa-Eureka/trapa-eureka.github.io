@@ -1,6 +1,6 @@
 <li class="catalogue-item">
     <a href="{{ page.url | prepend: site.baseurl }}" >
-        {% if page.portfolio == true %}
+        {% if page.portfolio == true and page.main-img %}
         <img src="{{ page.main-img }}" class="catalogue-img"/>
         {% endif %}
         {% if page.draft == true %}
