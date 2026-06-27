@@ -50,6 +50,16 @@ Bayni가 가장 공들인 부분이다.
 - 안전장치는 사용자가 **거래 전에, 한눈에** 알 수 있어야 의미가 있다고 생각했다.
 - 위치 기반 서비스인 만큼 **프라이버시를 기본값**으로 두는 걸 원칙으로 삼았다.
 
+# Stack
+
+- **App**: React Native · Expo (Expo Router), TypeScript
+- **상태 · 데이터**: TanStack Query, Zustand
+- **지도 · 위치**: React Native Maps, 반경 기반 위치 검색(PostGIS)
+- **Backend**: Supabase — 인증(Google · Apple · OTP), Postgres, Storage, 실시간(Realtime)
+- **AI**: 매물 검수 · 가격 추천 · 추천 피드 등 (서버에서 처리)
+- **그 외**: 푸시 알림, 지오코딩
+- **플랫폼**: iOS (Android 예정)
+
 # 지금, 그리고 다음
 
 iOS로 먼저 선보였고, Android 버전을 준비 중이다. 앞으로도 **더 안전하고, 더 동네스러운** 거래 경험을 다듬어 갈 계획이다.
