@@ -26,3 +26,6 @@ author:
 version:        3.4.1
 github:
   repo:         https://github.com/Trapa-Eureka/trapa-eureka.github.io
+
+# Analytics — GA4 Measurement ID (loads only in production via _includes/head.html)
+google_analytics: G-FJT37ZKF5Z
