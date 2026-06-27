@@ -64,4 +64,4 @@ Bayni가 가장 공들인 부분이다.
 
 iOS로 먼저 선보였고, Android 버전을 준비 중이다. 앞으로도 **더 안전하고, 더 동네스러운** 거래 경험을 다듬어 갈 계획이다.
 
-자세한 내용은 공식 웹사이트 **[bayni.app](https://bayni.app)** 에서 볼 수 있다.
+자세한 내용은 공식 웹사이트 **[bayni.app](https://bayni.app){:target="_blank" rel="noopener"}** 에서 볼 수 있다.

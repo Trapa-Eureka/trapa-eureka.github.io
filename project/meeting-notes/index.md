@@ -57,4 +57,4 @@ order: 5
 
 회의 후 정리에 드는 시간을 줄이는 걸 목표로, 더 매끄러운 흐름으로 다듬어 가는 중이다.
 
-직접 써보려면 여기에서: **[meeting-notes-lemon-two.vercel.app](https://meeting-notes-lemon-two.vercel.app)**
+직접 써보려면 여기에서: **[meeting-notes-lemon-two.vercel.app](https://meeting-notes-lemon-two.vercel.app){:target="_blank" rel="noopener"}**

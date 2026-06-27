@@ -58,4 +58,4 @@ order: 4
 
 현재 **무료 베타**로 열려 있다. 더 많은 플랫폼 형식과 콘텐츠 흐름을 더해 가는 중이고, 셀러가 "오늘은 뭘 올리지?"로 고민하는 시간을 줄여주는 게 목표다.
 
-직접 써보려면 여기에서: **[ai-marketing-taupe.vercel.app](https://ai-marketing-taupe.vercel.app)**
+직접 써보려면 여기에서: **[ai-marketing-taupe.vercel.app](https://ai-marketing-taupe.vercel.app){:target="_blank" rel="noopener"}**

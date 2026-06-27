@@ -54,4 +54,4 @@ order: 6
 
 흩어진 공개 법률 정보를 더 쉽고 빠르게 찾도록 다듬어 가는 중이다.
 
-직접 둘러보려면 여기에서: **[ph-law.vercel.app](https://ph-law.vercel.app)**
+직접 둘러보려면 여기에서: **[ph-law.vercel.app](https://ph-law.vercel.app){:target="_blank" rel="noopener"}**
