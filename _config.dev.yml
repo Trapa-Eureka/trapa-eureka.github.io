@@ -1,0 +1,8 @@
+# Local-only overrides. Pass with:  --config _config.yml,_config.dev.yml
+# GitHub Pages never reads this file (it only loads _config.yml), so the
+# production build stays untouched. Deep-merges onto _config.yml's `sass:` block.
+sass:
+  # Silence the harmless Dart Sass "@import is deprecated" warnings shown
+  # by the modern local toolchain. The site's SCSS still compiles identically.
+  silence_deprecations:
+    - import
