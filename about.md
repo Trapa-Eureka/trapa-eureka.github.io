@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JINHO SON"
-subtitle: "손진호"
+subtitle: "Jinho Son"
 type: "About"
 author: "JINHO SON"
 permalink: /about/
@@ -9,39 +9,31 @@ post-header: true
 header-img: "https://images.unsplash.com/photo-1545724407-0169b368c58f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"
 ---
 
-유유자적하게 전세계를 돌아다니는 Digital Nomad의 삶을 지향하지만 아이 세명 있는 철없는 가장이라 기회만 엿보는 중. 대학교 졸업 후 한국에서 1년 가량 일한 뒤 2014년 4월 이전까지
-해외에서 꽤 긴 기간동안 지냈다.(그 중에서도 필리핀에서 제일 오래 지냈다.)
+I aspire to the free-spirited life of a Digital Nomad roaming the world, but as a carefree family man with three kids, I'm still just watching for my chance. After graduating from university and working in Korea for about a year, I spent a fairly long stretch abroad up until April 2014 — and of all those places, I lived in the Philippines the longest.
 <br />
-웹/앱 풀스택이 목표이나 갈길이 멀고 (인공지능 분석에도 관심이 많다.) 취미를 일로 만들기 위해 드론과 DSLR카메라로 사진/영상 촬영 및 편집도 가끔한다.
-더욱이 국제결혼을 한 덕에 곁다리로 영어/한국어 번역을 정말. 가끔. 한다.
+These days I'm working full-stack on web and apps, and since I'm interested in AI and security, I'm studying those as well. I also enjoy shooting and editing videos with a drone and my smartphone.
 
-# 관심 있는 Media
-### 필리핀 관련 팟캐스트
+# Media I'm into
 
-- `팟빵에서 들을 수 있는 팟캐스트`
-- 팟캐스트 이름: [PINOY910](http://www.podbbang.com/ch/14221) / [앗싸필리핀](http://www.podbbang.com/ch/7417) / [어메이징필리핀](http://www.podbbang.com/ch/9325)
-
-<br />
-
-### 필리핀 현지 언론사
+### Philippine News Outlets
 
 - [ABS-CBN](https://www.abs-cbn.com/) / [GMA](https://www.gmanetwork.com/) / [TV5](http://www.tv5.com.ph/) / [Rappler](https://www.rappler.com/) / [SunStar](https://www.sunstar.com.ph/) / [Inquirer](https://www.inquirer.net/) / [Manila Bulletin](https://mb.com.ph/) / [Philstar](https://www.philstar.com/)
 
 <br />
 
-### 필리핀 정부관련 사이트
+### Philippine Government Sites
 
-- [정부 공식 사이트](https://www.gov.ph/)
-- [DFA(외교부)](https://dfa.gov.ph/)
+- [Official Government Portal](https://www.gov.ph/)
+- [DFA (Dept. of Foreign Affairs)](https://dfa.gov.ph/)
 - [Immigration](http://immigration.gov.ph/)
-- [DOLE(고용노동부)](http://www.dole.gov.ph/)
-- [DOH(보건부)](www.doh.gov.ph/)
-- [DOT(관광부)](www.tourism.gov.ph/)
-- [BSP(필리핀 중앙은행)](www.bsp.gov.ph/)
+- [DOLE (Dept. of Labor and Employment)](http://www.dole.gov.ph/)
+- [DOH (Dept. of Health)](www.doh.gov.ph/)
+- [DOT (Dept. of Tourism)](www.tourism.gov.ph/)
+- [BSP (Central Bank of the Philippines)](www.bsp.gov.ph/)
 
 <br />
 
-### 좋아하는 필리핀 음악
+### Filipino Music I Like
 
 - [Wish 107.5 Theme Song](https://youtu.be/t74MhXhAnFM) / [Daryl Ong - ikaw na nga](https://youtu.be/SBm-N2kXBJg) / [Kris Lawrence - Ikaw Pala](https://youtu.be/amSRNwMp2nc) / [Morisette - akin ka na lang](https://youtu.be/p2FXQgtmPDw) / [Kakal Bautista - isang tanong, isang sagot](https://youtu.be/2MuS1GYM3-0) / [MYMP - Kailan](https://youtu.be/btw7ZJzYXf8)
 
