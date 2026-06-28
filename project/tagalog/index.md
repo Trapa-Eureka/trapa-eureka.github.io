@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "Salita PH"
 subtitle: "Filipino (Tagalog), a little bit every day, in a fun way"
+description: "Salita PH helps you learn Filipino (Tagalog) a little every day in a fun, friendly way. A language-learning side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

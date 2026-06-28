@@ -2,34 +2,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>{{ page.title }}</title>
-    
-<!-- Post info -->
+  {% comment %} ---- SEO: derived title + clean description (markdownify+strip_html removes leaked markdown #) ---- {% endcomment %}
+  {% if page.url == '/' %}
+    {% assign page_title = site.title | append: ' — Full-Stack Developer in the Philippines' %}
+  {% else %}
+    {% assign page_title = page.title | append: ' · ' | append: site.title %}
+  {% endif %}
+
+  {% if page.description %}
+    {% assign page_description = page.description %}
+  {% else %}
+    {% assign page_description = page.content | markdownify | strip_html | normalize_whitespace | truncatewords: 30 %}
+  {% endif %}
+
+  {% assign canonical_url = page.url | prepend: site.url %}
+
+  <title>{{ page_title | escape }}</title>
+  <meta name="description" content="{{ page_description | escape }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+<!-- Open Graph / Twitter -->
 
   <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}" />
+    <meta property="og:url" content="{{ canonical_url }}" />
 
-    <meta property="fb:app_id"          content="" />
-    <meta property="og:type"            content="article" /> 
-    <meta property="og:url"             content="{{ site.url }}{{ page.url }}" />
-    
     {% assign og_image = site.url | replace: 'http://', 'https://' | append: '/img/og.png' %}
     <meta property="og:image" content="{{ og_image }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:image" content="{{ og_image }}">
 
-    <meta name="twitter:card" content="summary_large_image"> 
-    
-    <!-- title -->
-    <meta property="og:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
-    
-    <meta name="twitter:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
-    
-    <!-- description -->
-    <meta property="og:description" content="{% if page.main == true %}{{ page.description }}{% else %}{{ page.content | truncatewords: 30 | strip_html }}{% endif %}"/>
-    
-    <meta name="twitter:description" content="{% if page.main == true %}{{ page.description }}{% else %}{{ page.content | truncatewords: 30 | strip_html }}{% endif %}">
-    
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:title" content="{% if page.url == '/' %}{{ page.subtitle | escape }}{% else %}{{ page.title | escape }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.url == '/' %}{{ page.subtitle | escape }}{% else %}{{ page.title | escape }}{% endif %}">
+
+    <meta property="og:description" content="{{ page_description | escape }}" />
+    <meta name="twitter:description" content="{{ page_description | escape }}">
+
+  {% comment %} ---- Structured data (JSON-LD): Person on home, Article on posts ---- {% endcomment %}
+  {% if page.url == '/' %}
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":{{ site.author.name | jsonify }},"url":{{ site.url | jsonify }},"jobTitle":"Full-Stack Developer","sameAs":["https://github.com/{{ site.author.github }}"]}
+  </script>
+  {% else %}
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Article","headline":{{ page.title | jsonify }},"description":{{ page_description | jsonify }},"author":{"@type":"Person","name":{{ site.author.name | jsonify }},"url":{{ site.url | jsonify }}},"publisher":{"@type":"Person","name":{{ site.author.name | jsonify }}},"image":{{ og_image | jsonify }},"mainEntityOfPage":{{ canonical_url | jsonify }},"url":{{ canonical_url | jsonify }}}
+  </script>
+  {% endif %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">

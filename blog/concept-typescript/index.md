@@ -2,6 +2,7 @@
 layout: post
 title:  "TypeScript Concepts (Concept of TS)"
 subtitle: "A summary of concepts worth understanding"
+description: "Plain-language notes on the TypeScript concepts worth understanding — types, interfaces, classes, and compiling down to JavaScript."
 type: "Learning & Study"
 blog: true
 text: true

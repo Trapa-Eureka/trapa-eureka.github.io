@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "Tax Assistant PH"
 subtitle: "A tax-filing prep helper for freelancers in the Philippines"
+description: "Tax Assistant PH helps Filipino freelancers prepare their tax filing — a prep aid, not official tax advice. A side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

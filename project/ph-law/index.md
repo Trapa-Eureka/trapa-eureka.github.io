@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "PH-Law"
 subtitle: "Search scattered Philippine legal information in one place"
+description: "PH-Law helps you search scattered Philippine legal information in one place — an information-finding aid, not legal advice. A side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

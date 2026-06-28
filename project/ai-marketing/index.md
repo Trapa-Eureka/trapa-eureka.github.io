@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "BentaAI"
 subtitle: "Marketing copy for Filipino sellers, in the local voice"
+description: "BentaAI writes marketing copy for Filipino sellers in a natural Taglish voice — product captions and promos in seconds. A side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

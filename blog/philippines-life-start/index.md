@@ -2,6 +2,7 @@
 layout: post
 title:  "My Second Home, the Philippines"
 subtitle: "of the philippines, by the philippines, for the philippines"
+description: "Why the Philippines became my second home — an honest, personal account of moving there, adjusting to life, and what I found along the way."
 type: "Life"
 blog: true
 text: true

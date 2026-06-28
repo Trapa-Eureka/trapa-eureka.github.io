@@ -2,6 +2,7 @@
 layout: post
 title:  "a change in one's life"
 subtitle: "Before and after COVID-19"
+description: "A personal reflection on how life changed before and after COVID-19 — weighing remote work and a move abroad with a young family."
 type: "Life"
 blog: true
 text: true

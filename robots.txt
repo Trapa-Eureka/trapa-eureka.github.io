@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trapa-eureka.github.io/sitemap.xml

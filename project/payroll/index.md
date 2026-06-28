@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "Lite Payroll PH"
 subtitle: "Lightweight payroll management for small and mid-sized businesses in the Philippines"
+description: "Lite Payroll PH is lightweight payroll for small and mid-sized businesses in the Philippines — a prep helper, not professional accounting advice."
 type: "Side Project"
 projects: true
 text: true

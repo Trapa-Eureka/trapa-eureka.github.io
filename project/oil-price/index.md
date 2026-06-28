@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "PH Fuel Watch"
 subtitle: "Fuel prices at gas stations across the Philippines, all on a single map"
+description: "See fuel prices at gas stations across the Philippines on one map — public price data made easy to browse. A side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

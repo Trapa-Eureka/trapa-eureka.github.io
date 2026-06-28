@@ -2,6 +2,7 @@
 layout: post
 title:  "Connecting to an Amazon Server from a Mac Using the Terminal"
 subtitle: "How to connect via SSH using the terminal"
+description: "A step-by-step guide to connecting to an Amazon EC2 server over SSH from a Mac terminal — converting .ppk to .pem and transferring files with scp."
 type: "Development"
 blog: true
 text: true

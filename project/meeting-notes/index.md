@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "MeetingNotes"
 subtitle: "Paste in your meeting notes, and decisions and to-dos get organized"
+description: "Paste in messy meeting notes and get clean decisions and action items back. A small productivity side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

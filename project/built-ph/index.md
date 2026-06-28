@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "Trabuild"
 subtitle: "From quote to final payment — one tool for small repair & construction pros in the Philippines"
+description: "Trabuild is one tool for small repair and construction pros in the Philippines — from quote to progress photos to payment record. A side project by JINHO SON."
 type: "Side Project"
 projects: true
 text: true

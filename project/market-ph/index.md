@@ -3,6 +3,7 @@ layout: post
 author: "JINHO SON"
 title:  "Bayni"
 subtitle: "Safe secondhand trading with the neighbors right around you"
+description: "Bayni is a neighborhood secondhand marketplace for the Philippines — find what's for sale near you and trade with people in your own community."
 type: "Side Project"
 projects: true
 text: true

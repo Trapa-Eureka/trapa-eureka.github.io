@@ -2,6 +2,7 @@
 layout: post
 title:  "What It Takes to Turn PDF Tables into Clean Data"
 subtitle: "The unglamorous data engineering behind a recent side project — and why it was the hard part"
+description: "Turning messy PDF tables into clean, structured data for a map: defensive parsing, OCR, geocoding, and why a parser is never truly finished."
 type: "Development"
 blog: true
 text: true
