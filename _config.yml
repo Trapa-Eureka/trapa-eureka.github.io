@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          JINHO SON
 baseurl:        ""
-url:            "http://trapa-eureka.github.io"
+url:            "https://trapa-eureka.github.io"
 
 # Assets
 sass:
@@ -17,7 +17,7 @@ markdown:       kramdown
 # About
 author:
   name:         JINHO SON
-  url:          http://trapa-eureka.github.io
+  url:          https://trapa-eureka.github.io
   email:        1982gaya@gmail.com  
   github:       Trapa-Eureka
   twitter:      
