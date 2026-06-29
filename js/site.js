@@ -113,10 +113,37 @@
     window.scrollTo(0, savedScrollY);
   }
 
+  // Keyboard-aware sizing: pin the overlay to the *visual* viewport so it always
+  // covers exactly the visible area when the on-screen keyboard is up. position:fixed
+  // alone leaves a gap on iOS Chrome; the VisualViewport API fixes that.
+  function syncViewport() {
+    var vv = window.visualViewport;
+    if (!vv) return;
+    var s = overlay.style;
+    s.top = vv.offsetTop + 'px';
+    s.left = vv.offsetLeft + 'px';
+    s.right = 'auto';
+    s.bottom = 'auto';
+    s.width = vv.width + 'px';
+    s.height = vv.height + 'px';
+  }
+  function clearViewport() {
+    var s = overlay.style;
+    s.top = s.left = s.right = s.bottom = s.width = s.height = '';
+  }
+  function vvListen(on) {
+    if (!window.visualViewport) return;
+    var m = on ? 'addEventListener' : 'removeEventListener';
+    window.visualViewport[m]('resize', syncViewport);
+    window.visualViewport[m]('scroll', syncViewport);
+  }
+
   function open() {
     overlay.hidden = false;
     overlay.setAttribute('aria-hidden', 'false');
     lockScroll();
+    syncViewport();
+    vvListen(true);
     loadIndex().then(function () { if (input.value) render(input.value); });
     ensureGSAP().then(function () {
       if (window.gsap) window.gsap.fromTo(overlay, { opacity: 0 }, { opacity: 1, duration: 0.22, ease: 'power2.out' });
@@ -127,6 +154,8 @@
   function close() {
     overlay.hidden = true;
     overlay.setAttribute('aria-hidden', 'true');
+    vvListen(false);
+    clearViewport();
     unlockScroll();
     input.value = '';
     results.innerHTML = '';
