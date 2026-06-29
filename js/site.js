@@ -120,16 +120,17 @@
     var vv = window.visualViewport;
     if (!vv) return;
     var s = overlay.style;
-    s.top = vv.offsetTop + 'px';
-    s.left = vv.offsetLeft + 'px';
-    s.right = 'auto';
-    s.bottom = 'auto';
     s.width = vv.width + 'px';
     s.height = vv.height + 'px';
+    // Align to the visual viewport via transform (reliable on iOS, where setting
+    // top/left on a position:fixed element while the keyboard is open is buggy).
+    s.transform = 'translate(' + vv.offsetLeft + 'px, ' + vv.offsetTop + 'px)';
   }
   function clearViewport() {
     var s = overlay.style;
-    s.top = s.left = s.right = s.bottom = s.width = s.height = '';
+    s.width = '';
+    s.height = '';
+    s.transform = '';
   }
   function vvListen(on) {
     if (!window.visualViewport) return;
