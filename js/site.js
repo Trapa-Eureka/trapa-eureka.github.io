@@ -127,5 +127,50 @@
     });
   }
 
+  /* ----------------------------------------------------------------
+     3) Prefetch internal pages on hover/touch.
+     GitHub Pages can be slow to first-byte from some regions; warming
+     the next page before the click makes navigation feel instant.
+  ----------------------------------------------------------------- */
+  function setupPrefetch() {
+    var done = {};
+    var canPrefetch = (function () {
+      var l = document.createElement('link');
+      return l.relList && l.relList.supports && l.relList.supports('prefetch');
+    })();
+
+    function prefetch(url) {
+      if (!url || done[url]) return;
+      done[url] = true;
+      if (canPrefetch) {
+        var link = document.createElement('link');
+        link.rel = 'prefetch';
+        link.href = url;
+        document.head.appendChild(link);
+      } else {
+        fetch(url, { credentials: 'same-origin' }).catch(function () {});
+      }
+    }
+
+    function urlFor(a) {
+      if (!a || !a.href) return null;
+      if (a.hostname !== location.hostname || a.protocol !== location.protocol) return null; // same-origin only
+      if (a.hasAttribute('target')) return null;            // skip new-tab / external links
+      if (a.href === location.href) return null;
+      if (a.hash && a.pathname === location.pathname) return null; // same-page anchor
+      return a.href;
+    }
+
+    function onPoint(e) {
+      var a = e.target && e.target.closest ? e.target.closest('a') : null;
+      var url = urlFor(a);
+      if (url) prefetch(url);
+    }
+
+    document.addEventListener('mouseover', onPoint, { passive: true });
+    document.addEventListener('touchstart', onPoint, { passive: true });
+  }
+
   setupViewMore();
+  setupPrefetch();
 })();

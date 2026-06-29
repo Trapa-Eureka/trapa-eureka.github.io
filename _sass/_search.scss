@@ -74,6 +74,16 @@
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 
+    // keep scrolling, hide the scrollbar
+    scrollbar-width: none;        // Firefox
+    -ms-overflow-style: none;     // old IE / Edge
+
+    &::-webkit-scrollbar {        // WebKit (Chrome / Safari)
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
     &[hidden] { display: none; }
 }
 
