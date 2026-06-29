@@ -10,13 +10,13 @@ body {
   padding: 0;
 }
 
-// Home page: keep scrolling, hide the scrollbar.
-html.is-home {
+// Hide the scrollbar across all pages, keep scrolling.
+html {
   scrollbar-width: none;      // Firefox
   -ms-overflow-style: none;   // old IE / Edge
 }
-html.is-home::-webkit-scrollbar,
-html.is-home body::-webkit-scrollbar {
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
   width: 0;
   height: 0;
   display: none;              // WebKit (Chrome / Safari)
