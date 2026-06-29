@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll-dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "export PATH=/opt/homebrew/opt/ruby/bin:$PATH && exec bundle exec jekyll serve --config _config.yml,_config.dev.yml --port 4125 --host 127.0.0.1"],
+      "port": 4125
+    }
+  ]
+}

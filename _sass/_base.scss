@@ -10,6 +10,18 @@ body {
   padding: 0;
 }
 
+// Home page: keep scrolling, hide the scrollbar.
+html.is-home {
+  scrollbar-width: none;      // Firefox
+  -ms-overflow-style: none;   // old IE / Edge
+}
+html.is-home::-webkit-scrollbar,
+html.is-home body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;              // WebKit (Chrome / Safari)
+}
+
 html {
   font-family: $san-serif, $source;
   font-size: 17px;

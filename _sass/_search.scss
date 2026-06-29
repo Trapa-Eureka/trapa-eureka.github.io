@@ -1,0 +1,182 @@
+/* ---------------- View more (catalogue lists) ---------------- */
+
+// Hide items beyond the 7th only when JS is on (flash-free; no-JS shows all).
+.js .catalogue:not(.is-expanded) > .catalogue-item:nth-child(n+8) {
+    display: none;
+}
+
+@keyframes catalogue-reveal {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: none; }
+}
+
+.catalogue.is-expanded > .catalogue-item:nth-child(n+8) {
+    animation: catalogue-reveal .45s ease both;
+}
+
+.view-more {
+    display: block;
+    margin: 8px auto 72px auto;
+    padding: 11px 26px;
+    font-family: $source;
+    font-size: 16px;
+    font-weight: 600;
+    color: $grey-0;
+    background: transparent;
+    border: 1px solid $grey-2;
+    border-radius: 100px;
+    cursor: pointer;
+    @include transition(all .2s ease);
+
+    span { color: $default-tint; }
+
+    &:hover {
+        border-color: $purple;
+        color: $purple;
+        span { color: $light-purple; }
+    }
+}
+
+/* ---------------- Search toggle (in nav) ---------------- */
+
+// Reserve room at the menu's right edge so the absolute-positioned toggle
+// never overlaps the last nav item, even on very narrow screens.
+.nav-container > ul { padding-right: 34px; }
+
+.search-toggle {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    padding: 4px;
+    line-height: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: $grey-0;
+    @include transition(opacity .2s ease);
+
+    svg { width: 20px; height: 20px; display: block; fill: none; stroke: currentColor; stroke-width: 2; }
+
+    &:hover { opacity: .55; }
+
+    @media (max-width: $break-small) {
+        svg { width: 18px; height: 18px; }
+    }
+}
+
+/* ---------------- Full-screen search overlay ---------------- */
+
+.search-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: $white;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &[hidden] { display: none; }
+}
+
+.search-inner {
+    max-width: 750px;
+    width: 86%;
+    margin: 0 auto;
+    padding: 24px 0 80px;
+
+    @media (max-width: $break-small) { padding: 40px 0 60px; }
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 2px solid $grey-0;
+    padding-bottom: 14px;
+}
+
+.search-input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: $san-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: $default-shade;
+    -webkit-appearance: none;
+
+    &::placeholder { color: $grey-5; font-weight: 600; }
+    &::-webkit-search-cancel-button { -webkit-appearance: none; }
+
+    @media (max-width: $break-small) { font-size: 24px; }
+}
+
+.search-close {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 1;
+    color: $grey-1;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    @include transition(all .2s ease);
+
+    &:hover { color: $default-shade; background: $grey-4; }
+}
+
+.search-status {
+    margin: 18px 0 4px;
+    font-family: $source;
+    font-size: 14px;
+    color: $default-tint;
+}
+
+.search-results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search-result {
+    border-bottom: 1px solid rgba(0,0,0,.07);
+
+    a {
+        display: block;
+        padding: 22px 4px;
+        text-decoration: none;
+        @include transition(opacity .2s ease);
+
+        &:hover { opacity: .6; }
+    }
+
+    .sr-type {
+        display: block;
+        font-family: $source;
+        font-size: 14px;
+        font-weight: 600;
+        color: $purple;
+        margin-bottom: 4px;
+    }
+
+    .sr-title {
+        display: block;
+        font-family: $san-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: $grey-0;
+        line-height: 1.4;
+    }
+
+    .sr-sub {
+        display: block;
+        margin-top: 3px;
+        font-family: $source;
+        font-size: 16px;
+        color: $grey-1;
+        line-height: 1.6;
+    }
+}
