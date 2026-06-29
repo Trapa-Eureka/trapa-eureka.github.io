@@ -72,6 +72,7 @@
     z-index: 1000;
     background: $white;
     overflow-y: auto;
+    overscroll-behavior: contain;   // don't chain scroll to the page behind
     -webkit-overflow-scrolling: touch;
 
     // keep scrolling, hide the scrollbar

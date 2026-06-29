@@ -94,10 +94,29 @@
     }
   }
 
+  // Reliable scroll lock (iOS Safari ignores body{overflow:hidden}, so freeze
+  // the body with position:fixed and restore the scroll position on close).
+  var savedScrollY = 0;
+  function lockScroll() {
+    savedScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+    var b = document.body.style;
+    b.position = 'fixed';
+    b.top = (-savedScrollY) + 'px';
+    b.left = '0';
+    b.right = '0';
+    b.width = '100%';
+    b.overflow = 'hidden';
+  }
+  function unlockScroll() {
+    var b = document.body.style;
+    b.position = ''; b.top = ''; b.left = ''; b.right = ''; b.width = ''; b.overflow = '';
+    window.scrollTo(0, savedScrollY);
+  }
+
   function open() {
     overlay.hidden = false;
     overlay.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
+    lockScroll();
     loadIndex().then(function () { if (input.value) render(input.value); });
     ensureGSAP().then(function () {
       if (window.gsap) window.gsap.fromTo(overlay, { opacity: 0 }, { opacity: 1, duration: 0.22, ease: 'power2.out' });
@@ -108,7 +127,7 @@
   function close() {
     overlay.hidden = true;
     overlay.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
+    unlockScroll();
     input.value = '';
     results.innerHTML = '';
     statusEl.textContent = '';
